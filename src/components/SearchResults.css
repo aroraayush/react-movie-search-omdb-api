@@ -1,19 +1,5 @@
-.Search-form{
-    margin-top: 2vmin;
-}
-
-.Search-input{
-    width: 50vmin;
-    height: 5vmin;
-    font-size: calc(6px + 2vmin);
-    margin-right: 2vmin;
-}
-.Search-button{
-    height: 6vmin;
-    font-size: calc(6px + 2vmin);
-}
-
 .Parent-grid{
+    background-color: #282c34;
 }
 
 .grid-container {
@@ -30,6 +16,7 @@
     height: 550px;
     flex-basis: 20%;
     -ms-flex: auto;
+    width: 259px;
     position: relative;
     padding: 10px;
     box-sizing: border-box;
@@ -38,10 +25,7 @@
 .Movie-title{
     font-family: Roboto;
     font-size: x-large;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    width: 220px;
+    color: white;
 }
 
 .Delete-symbol {
@@ -50,18 +34,7 @@
     -ms-transform: rotate(45deg); /* IE 9 */
     transform: rotate(45deg);
     cursor: pointer;
-}
-.text-center{
-    text-align: center;
-}
-.search-result{
-    text-align: center;
-    width: 100%;
-}
-.Movie-meta{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    color: white;
 }
 @media(max-width: 1333px) {
     .grid-item {

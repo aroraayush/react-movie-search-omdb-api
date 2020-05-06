@@ -26,6 +26,13 @@
 .App-link {
     color: #61dafb;
 }
+.Delete-movie{
+    font-size: 14px;
+    color: white;
+    margin-left: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
 
 @keyframes App-logo-spin {
     from {
@@ -35,3 +42,5 @@
         transform: rotate(360deg);
     }
 }
+
+
