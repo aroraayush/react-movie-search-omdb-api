@@ -1,0 +1,44 @@
+.Search-form{
+    margin-top: 2vmin;
+}
+
+.Search-input{
+    width: 50vmin;
+    height: 5vmin;
+    font-size: calc(6px + 2vmin);
+    margin-right: 2vmin;
+}
+.Search-button{
+    height: 6vmin;
+    font-size: calc(6px + 2vmin);
+}
+
+.Parent-grid{
+    width: 95vmax;
+}
+
+.grid-container {
+    display: grid;
+    grid-column-gap: 5px;
+    grid-row-gap: 40px;
+    grid-template-columns: auto auto auto auto;
+}
+
+.grid-item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.Movie-title{
+    font-family: Roboto;
+    font-size: x-large;
+}
+
+.Delete-symbol {
+    width: 150px;
+    height:150px;
+    -ms-transform: rotate(45deg); /* IE 9 */
+    transform: rotate(45deg);
+    cursor: pointer;
+}
